@@ -10,7 +10,6 @@ source:
   sha256: f7494ef0df60766b7cabe0a3651556345a963b74dbc16bc7c18479041170d402 
 
 build:
-  noarch: python
   number: 1
   script: python -m pip install --no-deps --ignore-installed .
   # fixme: remove redundant conda entrypoints when we can
